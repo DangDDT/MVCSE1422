@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style = "background-image: url(https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.15752-9/119650323_1507076826152632_7234795046013201381_n.jpg?_nc_cat=100&_nc_sid=ae9488&_nc_ohc=7YtD9r_WsaAAX87WHW8&_nc_ht=scontent.fsgn5-5.fna&oh=997239b04ee2d0c8da51391afb2bf350&oe=5FB7DFA3); background-size: cover">
+        <div  class="animate__animated animate__fadeInDown animate__slower" style="border: 2px solid black; margin: 200px auto; margin-bottom :20px;margin-left: 50px; padding: 10px; width : 500px" ><h1 style="text-align: center; width:100%" >Login Page</h1>
+            <form action="DispatchServlet" method="POST" style="text-align: center; width:100%">
+                Username: <input type="text" name="txtUsername" value=""/><br/><br/>
+                Password:   <input type="password" name="txtPassword" value=""/><br/><br/>
+                <input type="submit" value ="Login" name="btAction"/>
+                <input type="reset" value ="Reset"/>
+                <a href="signUp.html" style="font: bold 12px Arial;
+                   text-decoration: none;
+                   background-color: #EEEEEE;
+                   color: #333333;
+                   padding: 2px 6px 2px 6px;
+                   border-top: 1px solid #CCCCCC;
+                   border-right: 1px solid #333333;
+                   border-bottom: 1px solid #333333;
+                   border-left: 1px solid #CCCCCC;">Sign up</a>
+            </form>
+        </div>
+        <form action="DispatchServlet" style = "text-align: left">
+            <div class="animate__animated animate__bounceIn"><i class="fa fa-shopping-cart" style="font-size: 35px;margin-right: 10px"></i><input type="submit" value="Go to shopping book now" name="btAction" style=""/> </div>
+        </form>
+
+    </body>
+</html>
